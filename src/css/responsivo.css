@@ -1,0 +1,163 @@
+@media (max-width: 1280px){
+    .titulo{
+        position: absolute;
+        top: 450px;
+        left: 370px;
+    }
+    
+    
+    .tema{
+        position: absolute;
+        top: 530px;
+        left: 350px;  
+    }
+    
+    .lista{
+        position: absolute;
+        top: 350px;
+        left: 650px;
+    
+    }
+    
+    .principal{
+        position: absolute;
+        top: 30px;
+        left: 500px;
+        object-fit: cover;
+        object-position: 20% 10%;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px;
+      
+    }
+    
+    header{ 
+        position: absolute;
+        top: auto;
+        left: 890px;
+    
+    }
+}
+
+@media (max-width: 1025px){
+    .titulo{
+        position: absolute;
+        top: 690px;
+        left: 160px;
+        
+    }    
+    
+    .tema{
+        position: absolute;
+        top: 770px;
+        left: 150px;
+        width: 350px;
+      
+    }
+    
+    .lista{
+        position: absolute;
+        top: 600px;
+        left: 430px;  
+            
+    }
+    
+    .principal{
+        position: absolute;
+        top: 40px;
+        left: 180px;
+        object-fit: cover;
+        object-position: 20% 10%;
+        width: 550px;
+        height: 550px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px;
+    }
+    header{ 
+  position: absolute;
+  top: auto;
+  left: 750px;
+
+}
+}
+
+@media(max-width: 768px){
+    .titulo{
+        position: absolute;
+        top: 370px;
+        left: 220px;
+        
+    }    
+    
+    .tema{
+        position: absolute;
+        top: 450px;
+        left: 190px;
+        width: 350px;
+      
+    }
+    
+    .lista{
+        position: absolute;
+        top: 500px;
+        left: 130px;  
+            
+    }
+    
+    .principal{
+        position: absolute;
+        top: 40px;
+        left: 180px;
+        object-fit: cover;
+        object-position: 20% 10%;
+        width: 330px;
+        height: 330px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px;
+    }
+    header{ 
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+
+}
+}
+
+
+@media (max-width: 425px){
+    .titulo{
+        position: absolute;
+        top: 350px;
+        left: 90px;
+        
+    }
+    
+    
+    .tema{
+        position: absolute;
+        top: 430px;
+        left: 70px;
+        width: 350px;
+      
+    }
+    
+    .lista{
+        position: absolute;
+        top: 500px;
+        left: 0px;  
+            
+    }
+    
+    .principal{
+        position: absolute;
+        top: 150px;
+        left: 120px;
+        object-fit: cover;
+        object-position: 20% 10%;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px;
+    }
+}

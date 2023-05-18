@@ -1,0 +1,104 @@
+body{
+    font-family: 'Pacifico', cursive;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: rgba(162, 231, 221, 0.575);
+}
+
+.titulo{
+    position: absolute;
+    top: 660px;
+    left: 725px;
+}
+
+
+.tema{
+    position: absolute;
+    top: 750px;
+    left: 700px;  
+}
+
+.lista{
+    position: absolute;
+    top: auto;
+    left: 1000px;
+
+}
+
+.principal{
+    position: relative;
+    top: auto;
+    left: 400px;
+    object-fit: cover;
+    object-position: 20% 10%;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+  
+}
+
+header{ 
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+
+}
+
+#shared{
+    background: none;
+    border: none;    
+}
+
+.compartilhar{
+    cursor:pointer ;
+    width: 100px;
+}
+
+.compartilhar:hover,
+.zap:hover,
+.insta:hover,
+.clinic:hover{
+    transform: scale(1.07);
+}
+
+.zap,
+.insta,
+.clinic{
+    width: 40px;
+}
+
+
+ul{
+    border-radius: 50px;
+    border-bottom: 15px;
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    
+   
+}
+
+li{
+    word-spacing: 5px;
+    padding: 15px;
+    margin: 25px;
+    
+           
+}
+
+.primeiro{
+    
+background-color: rgba(238, 149, 230, 0.61);
+    border-radius: 25px;
+    }
+
+    .segundo{
+        background-color: rgba(238, 149, 230, 0.61);
+        border-radius: 25px;
+    }
+
+    .terceiro{
+        background-color: rgba(238, 149, 230, 0.61);
+        border-radius: 25px;
+    }
